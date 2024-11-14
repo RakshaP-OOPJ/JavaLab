@@ -7,33 +7,33 @@ public class Tools {
             System.out.println();
         }
     public void even(int n){
-        for(int i=0;i<=n;i+=2){
-            System.out.print(i+" ");
+        for(int i=0;i<=n;i++){
+            System.out.print(i*2+" ");
         }
         System.out.println();
     }
      public void odd(int n){
-        for(int i=1;i<=n;i+=2){
-            System.out.print(i+" ");
+        for(int i=1;i<=n;i++){
+            System.out.print(2*i+1+" ");
         }
         System.out.println();
     }
       public void mult3(int n){
-        for(int i=0;i<=n;i+=3)
+        for(int i=0;i<=n;i++)
         {
-            System.out.print(i+" ");
+            System.out.print(i*3+" ");
         }
         System.out.println();
     }
      public void mult4(int n){
-        for(int i=0;i<=n;i+=4){
-            System.out.print(i+" ");
+        for(int i=0;i<=n;i++){
+            System.out.print(i*4+" ");
         }
         System.out.println();
     }
       public void mult5(int n){
-        for(int i=0;i<=n;i+=5){
-            System.out.print(i+" ");
+        for(int i=0;i<=n;i++){
+            System.out.print(i*5+" ");
         }
         System.out.println();
     }
